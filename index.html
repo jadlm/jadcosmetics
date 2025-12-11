@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JadCosmetic - Cosmétiques Premium</title>
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo" onclick="showPage('home')">JadCosmetic</a>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Rechercher des produits...">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="showPage('home')">Accueil</a></li>
+                    <li><a href="#" onclick="showPage('products')">Produits</a></li>
+                    <li><a href="#" onclick="showPage('cart')">Panier</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon" onclick="toggleMiniCart()">
+                🛒
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MINI CART -->
+    <div class="mini-cart" id="miniCart"></div>
+
+    <!-- MAIN CONTENT -->
+    <main id="mainContent"></main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2024 BeautyShop. Tous droits réservés.</p>
+    </footer>
+
+   <script src="js/main.js"></script>
+</body>
+</html>

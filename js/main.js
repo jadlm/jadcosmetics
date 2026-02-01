@@ -300,6 +300,54 @@ const products = [
     description: "Après‑shampoing luxe qui conditionne en profondeur, renforce et améliore la brillance des cheveux — idéal pour cheveux abîmés ou déshydratés.",
     badge: "",
     stock: 20
+    },
+       {
+    id: "ha006",
+    name: "Pack Centella Apaisant & Réparateur",
+    category: "Pack",
+    price: 56.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/pack.jpg"],
+    rating: 4.7,
+    description: "✨ Trois étapes pour une peau zen",
+    badge: "",
+    stock: 20
+    },
+           {
+    id: "ha007",
+    name: "The Balance Set",
+    category: "Pack",
+    price: 63.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/thebalance.webp"],
+    rating: 4.7,
+    description: "Squalane Cleanser Salicylic Acid 2% Masque Niacinamide 10% + Zinc 1% ,Natural Moisturizing Factors + HA",
+    badge: "",
+    stock: 20
+    },
+            {
+    id: "ha008",
+    name: "The Smooth & Bright Set",
+    category: "Pack",
+    price: 79.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/The Smooth & Bright Set.webp"],
+    rating: 4.7,
+    description: "Niacinamide zinc de 60ml ,Hyaluronic acid  de 60ml ,Caffeine de 30ml ,Salicylique masque de 50ml ,         Natural moisturizing HA de 100ml",
+    badge: "",
+    stock: 20
+    },
+    {
+     id: "ha009",
+    name: "The Skin Support Set",
+    category: "Pack",
+    price: 35.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/The Skin Support Set.webp"],
+    rating: 4.7,
+    description: "Niacinamide 10% + Zinc 1% (30ml) ,Hyaluronic Acid 2% + B5 (30ml)",
+    badge: "",
+    stock: 20
     }
     ];
     
@@ -355,6 +403,7 @@ function showPage(page) {
                         <button class="filter-btn" onclick="filterCategory('Makeup')">Makeup</button>
                         <button class="filter-btn" onclick="filterCategory('Fragrance')">Fragrance</button>
                         <button class="filter-btn" onclick="filterCategory('Hair')">Hair</button>
+                        <button class="filter-btn" onclick="filterCategory('Pack')">Pack</button>
                     </div>
                     <select class="sort-select" onchange="sortProducts(this.value)">
                         <option value="popular">Populaire</option>

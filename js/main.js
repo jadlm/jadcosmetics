@@ -348,6 +348,18 @@ const products = [
     description: "Niacinamide 10% + Zinc 1% (30ml) ,Hyaluronic Acid 2% + B5 (30ml)",
     badge: "",
     stock: 20
+    },
+       {
+     id: "ha010",
+    name: "The Skin Support Set",
+    category: "Pack",
+    price: 21.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/packpanoxyl.jpg"],
+    rating: 4.7,
+    description: "PanOxyl Complete Cleanse, Manage & Moisturize Bundle - Acne Foaming Wash Benzoyl Peroxide 10%, PM Balancing Repair Moisturizer, AM Oil Control Moisturizer & Clarifying Exfoliant with 2% Salicylic Acid",
+    badge: "",
+    stock: 20
     }
     ];
     

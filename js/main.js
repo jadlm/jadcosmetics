@@ -351,7 +351,7 @@ const products = [
     },
        {
      id: "ha010",
-    name: "The Skin Support Set",
+    name: "panoxyl",
     category: "Pack",
     price: 21.00 * 11, // 616 MAD
     oldPrice: null,
@@ -359,6 +359,18 @@ const products = [
     rating: 4.7,
     description: "PanOxyl Complete Cleanse, Manage & Moisturize Bundle - Acne Foaming Wash Benzoyl Peroxide 10%, PM Balancing Repair Moisturizer, AM Oil Control Moisturizer & Clarifying Exfoliant with 2% Salicylic Acid",
     badge: "",
+    stock: 20
+    },
+      {
+     id: "ha011",
+    name: "centella",
+    category: "Pack",
+    price: 26.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/packpanoxyl.jpg"],
+    rating: 4.7,
+    description: "Centella Ampoules kit - SKIN1004 Set, 4 Ampoules
+",
     stock: 20
     }
     ];

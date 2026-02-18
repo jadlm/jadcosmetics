@@ -367,10 +367,9 @@ const products = [
     category: "Pack",
     price: 26.00 * 11, // 616 MAD
     oldPrice: null,
-    images: ["images/packpanoxyl.jpg"],
+    images: ["images/packrose.webp"],
     rating: 4.7,
-    description: "Centella Ampoules kit - SKIN1004 Set, 4 Ampoules
-",
+    description: "Centella Ampoules kit - SKIN1004 Set, 4 Ampoules",
     stock: 20
     }
     ];

@@ -371,6 +371,39 @@ const products = [
     rating: 4.7,
     description: "Centella Ampoules kit - SKIN1004 Set, 4 Ampoules",
     stock: 20
+    },
+       {
+     id: "ha012",
+    name: "CeraVe",
+    category: "Skincare",
+    price: 10.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/skin-renewing-night-cream-packshot-front-700x785-v1.webp"],
+    rating: 4.7,
+    description: "Skin Renewing Night Cream",
+    stock: 20
+    },
+        {
+     id: "ha013",
+    name: "CeraVe",
+    category: "Skincare",
+    price:     9.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/renewing-sa-cleanser_front.webp"],
+    rating: 4.7,
+    description: "Renewing SA Cleanser",
+    stock: 20
+    },
+        {
+     id: "ha014",
+    name: "CeraVe",
+    category: "Skincare",
+    price:     26.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/1863604_SuperFoodAirWhip_01.webp"],
+    rating: 4.7,
+    description: "Superfood Air-Whip Moisture Cream",
+    stock: 20
     }
     ];
     

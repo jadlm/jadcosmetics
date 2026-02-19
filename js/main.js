@@ -422,7 +422,7 @@ const products = [
     category: "neutrogena",
     price:     9.00 * 11, // 616 MAD
     oldPrice: null,
-    images: ["images/6811047_Carousel_1.webp""],
+    images: ["images/6811047_Carousel_1.webp"],
     rating: 4.7,
     description: "Neutrogena® Hydro Boost Gel-Crème",
     stock: 29

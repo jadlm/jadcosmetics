@@ -404,6 +404,28 @@ const products = [
     rating: 4.7,
     description: "Superfood Air-Whip Moisture Cream",
     stock: 20
+    },
+     {
+     id: "ha015",
+    name: "La Roche‑Posay",
+    category: "Skincare",
+    price:     9.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/la-roche-posay-effaclar-gel-limpiador-purificante-400-ml-1440.jpg"],
+    rating: 4.7,
+    description: "EFFACLAR GEL MOUSSANT PURIFIANT NETTOYANT PEAU GRASSE",
+    stock: 29
+    },
+        {
+     id: "ha015",
+    name: "La Roche‑Posay",
+    category: "neutrogena",
+    price:     9.00 * 11, // 616 MAD
+    oldPrice: null,
+    images: ["images/6811047_Carousel_1.webp""],
+    rating: 4.7,
+    description: "Neutrogena® Hydro Boost Gel-Crème",
+    stock: 29
     }
     ];
     

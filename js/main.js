@@ -418,8 +418,8 @@ const products = [
     },
         {
      id: "ha015",
-    name: "La Roche‑Posay",
-    category: "neutrogena",
+    name: "neutrogena",
+    category: "Skincare",
     price:     9.00 * 11, // 616 MAD
     oldPrice: null,
     images: ["images/6811047_Carousel_1.webp"],

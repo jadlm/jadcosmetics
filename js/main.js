@@ -396,7 +396,7 @@ const products = [
     },
         {
      id: "ha014",
-    name: "CeraVe",
+    name: "youthtothepeople",
     category: "Skincare",
     price:     26.00 * 11, // 616 MAD
     oldPrice: null,

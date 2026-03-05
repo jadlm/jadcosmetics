@@ -420,12 +420,207 @@ const products = [
      id: "ha015",
     name: "neutrogena",
     category: "Skincare",
-    price:     9.00 * 11, // 616 MAD
+    price:     9.00 * 11, // 99 MAD
     oldPrice: null,
     images: ["images/6811047_Carousel_1.webp"],
     rating: 4.7,
     description: "Neutrogena® Hydro Boost Gel-Crème",
     stock: 29
+    },
+    {
+    id: "co001",
+    name: "Maybelline Fit Me Foundation",
+    category: "Makeup",
+    price: 9.00 * 11, // 99 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.29.jpeg"],
+    rating: 4.5,
+    description: "Fond de teint léger et naturel pour un fini parfait toute la journée.",
+    badge: "new",
+    stock: 25
+    },
+    {
+    id: "co002",
+    name: "L'Oréal Paris Volume Million Lashes",
+    category: "Makeup",
+    price: 8.50 * 11, // 93.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.29 (1).jpeg"],
+    rating: 4.6,
+    description: "Mascara volumateur pour des cils spectaculaires et un regard intense.",
+    badge: "bestseller",
+    stock: 30
+    },
+    {
+    id: "co003",
+    name: "Essie Nail Polish - Classic Red",
+    category: "Makeup",
+    price: 6.50 * 11, // 71.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.29 (2).jpeg"],
+    rating: 4.4,
+    description: "Vernis à ongles haute tenue pour une manucure élégante et durable.",
+    stock: 40
+    },
+    {
+    id: "co004",
+    name: "NYX Professional Makeup Setting Spray",
+    category: "Makeup",
+    price: 9.50 * 11, // 104.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.29 (3).jpeg"],
+    rating: 4.7,
+    description: "Brumage fixateur pour un maquillage longue durée et parfait.",
+    badge: "new",
+    stock: 22
+    },
+    {
+    id: "co005",
+    name: "Rimmel Stay Matte Powder",
+    category: "Makeup",
+    price: 7.00 * 11, // 77 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.30.jpeg"],
+    rating: 4.3,
+    description: "Poudre matifiante pour un fini velouté et une peau sans brillance.",
+    stock: 35
+    },
+    {
+    id: "co006",
+    name: "CoverGirl Clean Matte BB Cream",
+    category: "Skincare",
+    price: 9.00 * 11, // 99 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.30 (1).jpeg"],
+    rating: 4.5,
+    description: "BB crème hydratante et matifiante pour un teint unifié et naturel.",
+    badge: "sale",
+    stock: 28
+    },
+    {
+    id: "co007",
+    name: "Burt's Bees Lip Balm",
+    category: "Makeup",
+    price: 5.50 * 11, // 60.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.30 (2).jpeg"],
+    rating: 4.6,
+    description: "Baume à lèvres nourrissant à la cire d'abeille pour des lèvres douces et protégées.",
+    stock: 50
+    },
+    {
+    id: "co008",
+    name: "Physicians Formula Butter Bronzer",
+    category: "Makeup",
+    price: 10.00 * 11, // 110 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.31.jpeg"],
+    rating: 4.7,
+    description: "Bronzer crémeux pour un effet soleil naturel et un teint éclatant.",
+    badge: "best",
+    stock: 18
+    },
+    {
+    id: "co009",
+    name: "Milani Conceal + Perfect Foundation",
+    category: "Makeup",
+    price: 9.00 * 11, // 99 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.31 (1).jpeg"],
+    rating: 4.5,
+    description: "Fond de teint haute couvrance pour un teint parfait et unifié.",
+    stock: 24
+    },
+    {
+    id: "co010",
+    name: "E.l.f. Poreless Putty Primer",
+    category: "Skincare",
+    price: 8.00 * 11, // 88 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.31 (2).jpeg"],
+    rating: 4.6,
+    description: "Base de maquillage pour un fini lisse et des pores visiblement réduits.",
+    badge: "new",
+    stock: 32
+    },
+    {
+    id: "co011",
+    name: "Wet n Wild Photo Focus Foundation",
+    category: "Makeup",
+    price: 7.50 * 11, // 82.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.31 (3).jpeg"],
+    rating: 4.4,
+    description: "Fond de teint pour un fini photo-parfait et une couvrance modulable.",
+    stock: 27
+    },
+    {
+    id: "co012",
+    name: "Sally Hansen Hard as Nails",
+    category: "Makeup",
+    price: 6.00 * 11, // 66 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.32.jpeg"],
+    rating: 4.3,
+    description: "Durcisseur d'ongles pour des ongles plus forts et résistants.",
+    stock: 45
+    },
+    {
+    id: "co013",
+    name: "Jordana EasyLiner",
+    category: "Makeup",
+    price: 4.50 * 11, // 49.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.32 (1).jpeg"],
+    rating: 4.5,
+    description: "Eyeliner automatique pour un trait précis et intense qui dure toute la journée.",
+    stock: 38
+    },
+    {
+    id: "co014",
+    name: "Palladio Herbal Lipstick",
+    category: "Makeup",
+    price: 8.50 * 11, // 93.5 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.33.jpeg"],
+    rating: 4.6,
+    description: "Rouge à lèvres enrichi en extraits de plantes pour des lèvres colorées et nourries.",
+    badge: "sale",
+    stock: 20
+    },
+    {
+    id: "co015",
+    name: "Australis Fresh & Flawless Pressed Powder",
+    category: "Makeup",
+    price: 9.00 * 11, // 99 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.33 (1).jpeg"],
+    rating: 4.4,
+    description: "Poudre compacte pour un fini mat et une tenue impeccable.",
+    stock: 25
+    },
+    {
+    id: "co016",
+    name: "Nyx Professional Makeup Jumbo Eye Pencil",
+    category: "Makeup",
+    price: 7.00 * 11, // 77 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.33 (2).jpeg"],
+    rating: 4.7,
+    description: "Crayon yeux multifonction pour un maquillage créatif et intense.",
+    badge: "bestseller",
+    stock: 30
+    },
+    {
+    id: "co017",
+    name: "Revlon ColorStay Eyeliner",
+    category: "Makeup",
+    price: 8.00 * 11, // 88 MAD
+    oldPrice: null,
+    images: ["images/WhatsApp Image 2026-03-05 at 15.10.34.jpeg"],
+    rating: 4.5,
+    description: "Eyeliner liquide à longue tenue pour un trait parfait et waterproof.",
+    stock: 22
     }
     ];
     

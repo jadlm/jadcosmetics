@@ -655,7 +655,7 @@ function showPage(page) {
     if (page === 'home') {
         main.innerHTML = `
             <section class="hero">
-                <h1>Tout à 50 DH ! Profitez maintenant avant la fin de l'offre</h1>
+<h1>Offre exceptionnelle 1+1 = 3 🎉 Ne la ratez pas !</h1>
                 <p>Découvrez notre collection exclusive de cosmétiques premium</p>
                 <button class="btn" onclick="showPage('products')">Découvrir nos produits</button>
             </section>
